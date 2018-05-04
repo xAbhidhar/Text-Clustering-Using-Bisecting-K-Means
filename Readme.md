@@ -19,12 +19,7 @@ The input data is in the form of text records. These have been converted into sp
 
 ## Input data format
 The training data is in the form of Compressed Sparse Row matrix. 
-Sparse matrices can be used in arithmetic operations. The operations supported by them are as follows:
-  - addition
-  - subtraction
-  - multiplication
-  - division
-  - matrix power
+Sparse matrices can be used in arithmetic operations. The operations supported by them are as addition, subtraction, multiplication, division, matrix power.
 
 Some of the advantages of the CSR format are :
   - efficient arithmetic operations CSR + CSR, CSR * CSR, etc.
